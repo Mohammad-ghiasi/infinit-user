@@ -15,7 +15,7 @@ const getData = async (result: number, page: number) => {
   return data;
 };
 
-export default function userPage() {
+export default function UserPage() {
   const elementRef = useRef(null);
   const [users, setUsers] = useState<any | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
