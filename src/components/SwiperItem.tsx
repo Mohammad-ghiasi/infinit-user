@@ -28,7 +28,6 @@ export default function SwiperItem({
   return (
     <Swiper
       spaceBetween={30} // Space between slides
-      slidesPerView={5} // Default number of slides
       autoplay={{
         delay: 1500,
         disableOnInteraction: false,
