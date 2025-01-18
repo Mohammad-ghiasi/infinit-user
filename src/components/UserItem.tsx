@@ -4,7 +4,7 @@ export default function UserItem({ user }: { user: any }) {
     <>
       <div
         key={user.login.uuid}
-        className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+        className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out px-1"
       >
         <div className="flex items-center space-x-4">
           <img
